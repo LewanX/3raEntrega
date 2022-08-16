@@ -1,0 +1,36 @@
+
+
+
+.image_logo{
+   @include imagesProperties(5rem,5rem )
+}
+.img_size{
+    width: 15rem;
+}
+
+.img_about{
+    border: solid 2px white;
+  max-width: 50%;
+  max-height: 30%;
+
+}
+.gallery{
+    max-width: 100%;/*al agregarlo quito el espaciado que genera la clase row*/
+    .img_work{
+        border: solid 2px white;
+       max-height: 80%;
+        max-width: 80%;
+        margin: 10px;
+        transition-duration: 1s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    
+   
+}
+.img_inicio{
+    filter: invert(1);
+    width: 20rem;
+    height: 20rem;
+}
