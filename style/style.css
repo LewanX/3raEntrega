@@ -27,6 +27,11 @@
   width: 20rem;
   height: 20rem; }
 
+.img_consulta {
+  filter: invert(1);
+  width: 15rem;
+  height: 15rem; }
+
 .input_contact {
   color: white;
   border-radius: 20px;
@@ -71,6 +76,12 @@ body {
   .main_container_p a:hover {
     transform: scale(1.1);
     text-decoration: underline; }
+
+.contactanos {
+  background-color: #641a2a;
+  color: white; }
+  .contactanos h2 {
+    background-color: #801a2f; }
 
 .carousel_about {
   height: 50%; }
